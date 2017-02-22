@@ -9,6 +9,9 @@ A: Identifying all boxes that contain numbers with two digits gives us a very sm
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
 A: Extending our list of units by adding the two main diagonals makes more units available. More available units allow for more checks when we apply our search techniques (elimination, naked-twins, etc) and thus constrains our search space further.
 
+# Remarks
+I have used and modified the code developed in the lesson to solve this problem. The only other source was various threads on stack overflow.com to get inspiration for general python functionality. 
+
 ### Install
 
 This project requires **Python 3**.
